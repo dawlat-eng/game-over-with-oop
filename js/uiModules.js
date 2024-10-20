@@ -42,7 +42,7 @@ export class UiHome{
                 <p class="fs-5">category: <span class="btn px-2 btn-primary">${detailsArray.genre}</span></p>
                 <p class="fs-5">platform: <span class="btn px-2 btn-primary">${detailsArray.platform}</span></p>
                 <p class="fs-5">status: <span class="btn px-2 btn-primary">${detailsArray.status}</span></p>
-                <p class="fs-6">${detailsArray.description}</p>
+                <p class="fs-6">${detailsArray.short_description}</p>
                 <a class="btn btn-outline-warning p-2" href="${detailsArray.game_url}">show game</a>
             </div>
             </div>
